@@ -1,0 +1,8 @@
+- Meu nome é Arthur Bona
+- Tenho 19 anos
+- Meu conhecimento de programação e tecnologia ainda é bastante reduzido, sendo limitado ao curso CS50x de Harvard, mas estou correndo atrás de aprendizado e com sede por capacitação.
+- Eu tenho um Macbook então estou pouquíssimo familiarizado com Windows, provavelmente vou ter que correr atrás de me habituar com o Sistema Operacional durante o programa.
+- Morei sozinho em São Paulo por 1 ano, estava estudando na USP, foi uma experiência muito enriquecedora, mas a cidade não perdoa e roubou muito de minha saúde que estou correndo atrás de recuperar. Apesar dos pontos negativos dessa vivência, foi bastante esclarecedora para mim em relação a eu descobrir quem sou e o que realmente quero.
+- Minha inspiração na tecnologia é meu irmão, ele começou bastante jovem, trabalhou na Amazon e hoje trabalha como PJ para o exterior, eu ficaria feliz seguindo um caminho profissional semelhante.
+- Meus hobbies favoritos são leitura, exercício físico, e viajar(principalmente com a família)
+- Eu sempre fui muito dedicado a tudo que fiz, longe da excelência, mas sempre a buscando. Fui o melhor aluno da escola, dava o sangue nos esportes que praticava, até com videogames eu me dedicava ao máximo e espero preservar essa energia ao longo do +Devs2Blu para que eu possa me qualificar ao máximo e, possivelmente, sair do programa empregado na área de tecnologia.
