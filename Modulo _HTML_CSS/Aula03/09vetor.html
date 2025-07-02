@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>09 - vetor</title>
+
+    <script>
+
+        let cores = ["azul", "verde", "vermelho", "roxo", "amarelo",];
+
+        // Adicionar elemento na última posição do array
+        cores.push("cinza");
+
+        for (let indice = 0; indice < cores.length; indice++){
+            document.write(cores.at(indice) + "<br>");
+        }
+
+        // Remover o último elemento do array
+        cores.pop();
+
+        // Remover o primeiro elemento do array
+        cores.shift();
+
+        // Remover elemento em posição específica
+        cores.splice(2, 1);
+
+        document.writeln("<hr>");
+
+        for (let indice = 0; indice < cores.length; indice++){
+            document.write(cores.at(indice) + "<br>");
+        }
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

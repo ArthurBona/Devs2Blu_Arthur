@@ -3,15 +3,15 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println(Cat.getCat_count());
+        Inventory inventory = new Inventory();
 
-        Cat cat1 = new Cat();
-        cat1.name = "Missy";
-        cat1.age = 5;
-        cat1.meow();
+        Fruit fruit = new Fruit( "Apple", 15, "Fuji");
+        Weapon weapon = new Weapon("Sword", 2, 90, "White");
 
-        System.out.println(Cat.MAX_LIVES);
-        System.out.println(Cat.getCat_count());
+        inventory.addItem(fruit);
+        inventory.addItem(weapon);
+
+        inventory.displayInventory();
 
     }
 }
