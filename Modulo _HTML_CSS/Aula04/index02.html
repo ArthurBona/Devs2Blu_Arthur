@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Conversor de moeda </title>
+
+    <link rel="stylesheet" href="estilo02.css">
+</head>
+<body>
+
+    <h1> Conversor de moeda </h1>
+
+    <input type="number" id="valor" placeholder="Digite o valor a ser convertido">
+
+    <select id="moeda">
+        <option value="dolar">Real para Dólar</option>
+        <option value="euro">Real para Euro</option>
+        <option value="libra">Real para Libra</option>
+        <option value="bitcoin">Real para Bitcoin</option>
+    </select>
+
+    <button onclick="converter()">Converter</button>
+
+    <div id="resultado"></div>
+
+    <script src="script02.js"></script>
+    
+</body>
+</html>

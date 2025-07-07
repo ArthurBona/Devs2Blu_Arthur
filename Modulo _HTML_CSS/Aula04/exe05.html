@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Fatorial </title>
+
+<style>
+
+    body {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    input {
+        padding: 8px;
+        font-size: 1em;
+        width: 100px;
+    }
+
+    button {
+        font-size: 1em;
+        padding: 8px 16px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+
+    #resultado {
+        margin-top: 20px;
+        padding: 15px;
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+</style>
+
+
+</head>
+<body>
+
+    <h1>Calculadora de Fatorial</h1>
+
+    <form id="formulario">
+
+        <label for="natural">Número: </label>
+        <input type="number" id="natural">
+
+        <button type="submit">Calcular</button>
+
+    </form>
+
+    <div id="resultado"></div>
+
+    <script>
+
+        let formulario = document.getElementById("formulario");
+        let resultado = document.getElementById("resultado")
+
+        formulario.onsubmit = () => {
+            const numero = parseInt(document.getElementById("natural").value);
+            let fatorial = 1;
+
+            if (numero <0) {
+
+                resultado.innerText = 'O valor de entrada deve ser um número natural';
+
+            } else if (isNaN(numero)) {
+
+                resultado.innerText = "A entrada não pode ser vazia";
+
+            } else {
+
+                for (let i = numero; i > 1; i--) {
+                    fatorial *= i;
+                }
+
+            resultado.innerText = `${numero} fatorial é: ${fatorial}`;
+            }
+
+            return false;
+        }
+
+    </script>
+    
+</body>
+</html>
