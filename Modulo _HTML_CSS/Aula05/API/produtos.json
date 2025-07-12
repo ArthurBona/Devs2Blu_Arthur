@@ -1,0 +1,52 @@
+{
+  "produtos": [
+    {
+      "id": "a8ec",
+      "nome": "Chocolate",
+      "marca": "Lindt",
+      "valor": 17.5
+    },
+    {
+      "nome": "Energético",
+      "marca": "Monster",
+      "valor": 8.5,
+      "id": "c9ca"
+    },
+    {
+      "id": "7bcf",
+      "nome": "Batata chips",
+      "marca": "Pringles",
+      "valor": 23
+    },
+    {
+      "id": "1e75",
+      "nome": "Energetico",
+      "marca": "RedBull",
+      "valor": 8
+    },
+    {
+      "nome": "Doritos",
+      "marca": "Elma Chips",
+      "valor": 12.99,
+      "id": "e697"
+    },
+    {
+      "id": "fbae",
+      "nome": "Snickers",
+      "marca": "Não sei",
+      "valor": 4.51
+    },
+    {
+      "id": "0622",
+      "nome": "batata chips",
+      "marca": "Pringles",
+      "valor": 17.5
+    },
+    {
+      "id": "094b",
+      "nome": "batata",
+      "marca": "pringles",
+      "valor": 17.5
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+<!-- Feito com: 
+ Memória dos exercícios anteriores; 
+ comparação ao código feito em aula; 
+ googling; 
+ IA para auxílio na compreensão de conceitos específicos -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Exe - Addresses </title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <form id="AddressForm">
+
+        <label for="name" class="form-label">Name</label>
+        <input type="text" class="form-control" placeholder="Ex: Freddie Mercury" id="name" required>
+
+        <label for="zipCode" class="form-label">ZipCode</label>
+        <input type="text" class="form-control" placeholder="Ex: 89010204" id="zipCode" required>
+
+        <label for="state" class="form-label">State</label>
+        <input type="text" class="form-control" id="state" disabled>
+
+        <label for="city" class="form-label">City</label>
+        <input type="text" class="form-control" id="city" disabled>
+
+        <label for="neighborhood" class="form-label">Neighborhood</label>
+        <input type="text" class="form-control" id="neighborhood" disabled>
+
+        <label for="street" class="form-label">Street</label>
+        <input type="text" class="form-control" id="street" disabled>
+
+        <button type="button" class="btn btn-success" id="btnRegister" onclick="register()"> 📦Register Address </button>
+        
+    </form>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>ZipCode</th>
+                <th>State</th>
+                <th>City</th>
+                <th>Neighborhood</th>
+                <th>Street</th>
+                <th>Edit</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+
+        <tbody id="table"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>

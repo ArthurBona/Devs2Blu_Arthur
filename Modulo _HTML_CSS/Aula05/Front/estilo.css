@@ -1,0 +1,17 @@
+form {
+    width: 500px;
+    margin: 30px auto; 
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+#btnAlterar, #btnRemover, #btnCancelar{
+    display:none;
+}
+
+table {
+    width: 500px;
+    text-align: center;
+}

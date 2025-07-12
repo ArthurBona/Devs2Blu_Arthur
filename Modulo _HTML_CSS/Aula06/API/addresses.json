@@ -1,0 +1,31 @@
+{
+  "addresses": [
+    {
+      "name": "Greb",
+      "zip": "89037585",
+      "state": "SC",
+      "city": "Blumenau",
+      "neighborhood": "Escola Agrícola",
+      "street": "Rua Hellmuth Jensen",
+      "id": "9999"
+    },
+    {
+      "id": "f8df",
+      "name": "Eldo",
+      "zip": "05402600",
+      "state": "SP",
+      "city": "São Paulo",
+      "neighborhood": "Pinheiros",
+      "street": "Avenida Rebouças"
+    },
+    {
+      "id": "235b",
+      "name": "Arthur Bona",
+      "zip": "89057670",
+      "state": "SC",
+      "city": "Blumenau",
+      "neighborhood": "Tribess",
+      "street": "Rua Amanda Tribess"
+    }
+  ]
+}
