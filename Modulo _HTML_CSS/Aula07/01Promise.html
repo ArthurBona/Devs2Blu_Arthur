@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 01 - Promise </title>
+</head>
+<body>
+    
+
+    <script>
+        // Minha promise
+        const minhaPromise = new Promise((resolve, reject) => {
+            // Constante de ação
+            const acao = true;
+
+            // Intervalo
+            setInterval(() => {
+                // Condicional
+            if (acao) {
+                resolve('Promessa efetuada com sucesso!');
+            } else {
+                reject('Promessa não efetuada!');
+            }
+            }, 2000);
+        });
+
+        // Executar promise
+        minhaPromise
+        .then((retorno) => console.log(retorno))
+        .catch((retorno) => console.log(retorno))
+        .finally(() => console.log('Promise finalizada'))
+    </script>
+</body>
+</html>
