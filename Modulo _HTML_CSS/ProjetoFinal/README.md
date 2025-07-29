@@ -33,11 +33,14 @@ Este projeto simula um pequeno mercado online. Os usuários podem navegar pelos 
 
 ## Como executar o projeto
 
-1. **Clone ou baixe o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/mercadinhobona.git
+1. **Download do Projeto**
+
+Você pode baixar o projeto completo pronto para usar neste link:
+
+[Download ZIP do ProjetoFinal](https://github.com/ArthurBona/Devs2Blu_Arthur/releases/tag/v1.0)
 
 2. **Abra o projeto no navegador**:
     Navegue até a pasta do projeto no seu computador.
-    Dê duplo clique sobre o arquivo html.
+    Descompacte o ProjetoFinal.zip.
+    Encontre o arquivo index.html e dê duplo clique sobre ele.
     
