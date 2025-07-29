@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>MercadinhoBona</title>
+  <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+  <header class="topo">
+    <img src="imagens/LogoMercadinho.png" alt="Logo MercadinhoBona" class="logo-img" />
+    <nav class="menu">
+      <ul>
+        <li><a href="#" onclick="filtrarCategoria('Balas e Pastilhas')">Balas e Pastilhas</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Bebidas Alcoólicas')">Bebidas Alcoólicas</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Bebidas Não Alcoólicas')">Bebidas Não Alcoólicas</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Confeitaria')">Confeitaria</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Higiene Pessoal')">Higiene Pessoal</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Laticínios')">Laticínios</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Limpeza')">Limpeza</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Mercearia')">Mercearia</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Padaria')">Padaria</a></li>
+        <li><a href="#" onclick="filtrarCategoria('Salgadinhos')">Salgadinhos</a></li>
+        <li><a href="#" onclick="mostrarProdutosNaTela(produtos)">Todos</a></li>
+      </ul>
+    </nav>
+    <form id="form-pesquisa">
+      <input type="text" id="input-pesquisa" placeholder="Pesquisar produtos..." />
+      <button type="submit">Buscar</button>
+    </form>
+  </header>
+
+  <main>
+    <section id="lista-produtos" class="container-produtos"></section>
+    <div class="container-carrinho">
+      <h2>Carrinho</h2>
+      <ul id="lista-carrinho"></ul>
+      <p id="total-carrinho">Total: R$ 0,00</p>
+      <button id="finalizar-compra" disabled>Finalizar Compra</button>
+      <button id="limpar-carrinho" disabled>Limpar Carrinho</button>
+    </div>
+  </main>
+
+  <script src="produtos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
