@@ -33,14 +33,31 @@ Este projeto simula um pequeno mercado online. Os usuários podem navegar pelos 
 
 ## Como executar o projeto
 
-1. **Download do Projeto**
+1. **Download do Projeto**  
+   Você pode baixar o projeto completo pronto para usar neste link:  
 
-Você pode baixar o projeto completo pronto para usar neste link:
+   [Download ZIP do ProjetoFinal](https://github.com/ArthurBona/Devs2Blu_Arthur/releases/download/v1.0/ProjetoFinal.zip)  
 
-[Download ZIP do ProjetoFinal](https://github.com/ArthurBona/Devs2Blu_Arthur/releases/tag/v1.0)
+2. **Executar o projeto**  
+   - Descompacte o arquivo `ProjetoFinal.zip` em uma pasta de sua preferência.  
+   - Abra o arquivo `index.html` em seu navegador (basta dar duplo clique).
 
-2. **Abra o projeto no navegador**:
-    Navegue até a pasta do projeto no seu computador.
-    Descompacte o ProjetoFinal.zip.
-    Encontre o arquivo index.html e dê duplo clique sobre ele.
-    
+---
+
+## Imagens das telas
+
+Tela inicial do MercadinhoBona:
+
+![Tela Inicial](imagens/Readme-tela-inicial.png)
+
+Visualização do carrinho de compras em atividade:
+
+![Carrinho de Compras](imagens/Readme-carrinho.png)
+
+Barra de busca em funcionamento:
+
+![Barra de busca](imagens/Readme-barra-busca.png)
+
+Limite de quantidade sendo atingido:
+
+![Limite de quantidade](imagens/Readme-limite-atingido.png)
